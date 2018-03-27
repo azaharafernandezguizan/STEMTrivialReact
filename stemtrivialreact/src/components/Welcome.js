@@ -6,7 +6,7 @@ export class Welcome extends Component {
     render() {
       return (
         <div className="welcomeDiv">
-            <img src={welcomeImage}/>
+            <img alt="Imagen de bienvenida" src={welcomeImage}/>
             <h1>{this.props.text}</h1>
             <button onClick={this.props.onClick}>Jugar</button>
         </div>

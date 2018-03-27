@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Welcome} from './components/Welcome';
-import {BodyImage} from './images/gaming-pattern.png';
+
 
 class App extends Component {
 
