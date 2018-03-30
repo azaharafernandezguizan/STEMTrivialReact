@@ -9,9 +9,11 @@ export class Game extends Component {
             <h1>{this.props.questionType}</h1>
             <h2 className="questionText">{this.props.questionText}</h2>
                 <div className="questionOptions">
-                    <input type="radio"  checked="false"/>{this.props.answerText}
+                    <input type="radio"  checked={ this.props.checked }/>{this.props.answers.answer1}
+                    <input type="radio"  checked={ this.props.checked }/>{this.props.answers.answer2}
+                    <input type="radio"  checked={ this.props.checked }/>{this.props.answers.answer3}
                 </div>
-                <button onClick = "nextQuestion()">Jugar</button>
+                <button onClick={this.props.onClick}>Jugar</button>
         </div>
       );
     }
