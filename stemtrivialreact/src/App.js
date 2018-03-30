@@ -80,6 +80,7 @@ class App extends Component {
         isResult: false
        });
     }
+    this.forceUpdate();
     
   }
 
