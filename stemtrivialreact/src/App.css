@@ -36,13 +36,17 @@ button{
   font-size: 1.2em;
   display: block;
 }
-button:hover, .questionOptions:hover { 
+button:hover { 
   background-color:#dee5ef;
 }
 
 img{
   width:100%;
   margin-bottom: 2%;
+}
+
+.resultImage{
+  height:25%;
 }
 
 @keyframes App-logo-spin {
