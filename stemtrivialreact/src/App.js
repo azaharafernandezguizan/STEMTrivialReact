@@ -18,38 +18,9 @@ class App extends Component {
     this.resultText ="";
     this.resultExplanation="";
     this.nextQuestion = this.nextQuestion.bind(this);
-    this.questions=[
-      {
-        questionText:"Probando primera pregunta",
-        questionType: "Testing1",
-        answers:{
-          answer1: "testing11",
-          answer2: "testing12",
-          answer3: "testing13"
-        },
-        correctAnswer : 0
-      },
-      {
-        questionText:"Probando segunda pregunta",
-        questionType: "Testing2",
-        answers:{
-          answer1: "testing21",
-          answer2: "testing22",
-          answer3: "testing23"
-        },
-        correctAnswer : 1
-      },
-      {
-        questionText:"Probando tercera pregunta",
-        questionType: "Testing3",
-        answers:{
-          answer1: "testing31",
-          answer2: "testing32",
-          answer3: "testing33"
-        },
-        correctAnswer : 2
-      }
-    ]
+    this.data = require('./data/questions.json');
+    this.totalQuestions = this.data.questionList;
+    
   }
   startGame() {
     this.indexOfCuestion = 0;
@@ -62,15 +33,35 @@ class App extends Component {
      isGame : true,
      isResult: false
     });
-    //TODO: leer de json
+    debugger;
+    this.questions = this.getRandomQuestions( this.totalQuestions, 16, 8);
+    debugger;
   }
+
+  getRandomQuestions(questions, totalNumberOfQuestions, amountQuestionsSelected){
+    const resultArrayQuestions = [];
+    const choosedNumbers = [];
+    let count = 0;
+
+    do {
+      const actualNumber = Math.floor((Math.random() * totalNumberOfQuestions));
+
+      if (choosedNumbers.indexOf(actualNumber) === -1) {
+         choosedNumbers.push(actualNumber);
+         resultArrayQuestions.push(questions[actualNumber]);
+         count++;
+      }
+    }while (count < amountQuestionsSelected);
+
+    return resultArrayQuestions;
+ }
+
 
   nextQuestion(selectedAnswer){
     if(selectedAnswer === this.questions[this.indexOfCuestion].correctAnswer){
         this.numberOfValidResponses++;
     }
     this.indexOfCuestion ++;
-    debugger;
     if(this.indexOfCuestion >= this.questions.length){
       this.fillResultText();
       this.setState({

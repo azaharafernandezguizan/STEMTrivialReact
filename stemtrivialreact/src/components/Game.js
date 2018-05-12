@@ -18,9 +18,9 @@ export class Game extends Component {
             <h1>{this.props.questionType}</h1>
             <h2 className="questionText">{this.props.questionText}</h2>
                 <div className="questionOptions">
-                  <button onClick={() => { this.selectAnswer(0) }}>{this.props.answers.answer1}</button>
-                  <button onClick={() => { this.selectAnswer(1) }}>{this.props.answers.answer2}</button>
-                  <button onClick={() => { this.selectAnswer(2) }}>{this.props.answers.answer3}</button>
+                  <button className="answerOption" onClick={() => { this.selectAnswer(0) }}>{this.props.answers.answer1}</button>
+                  <button className="answerOption" onClick={() => { this.selectAnswer(1) }}>{this.props.answers.answer2}</button>
+                  <button className="answerOption" onClick={() => { this.selectAnswer(2) }}>{this.props.answers.answer3}</button>
                 </div>
                 
         </div>

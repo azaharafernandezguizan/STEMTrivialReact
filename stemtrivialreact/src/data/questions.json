@@ -1,0 +1,164 @@
+{
+    "questionList": [
+        {
+            "questionType": "Ciencias",
+            "questionText": "¿Quién descubrió la estructura del DNA?",
+            "answers":{
+                    "answer1": "Rosalind Franklin",
+                    "answer2": "Marie Curie",
+                    "answer3": "Rita Levi Montalcini"
+                },
+            "correctAnswer": 0
+        },
+        {
+            "questionType": "Tecnología",
+            "questionText": "¿Quién es la CEO de Facebook Iberia en 2018?",
+            "answers": {
+                    "answer1": "Marta Ríos",
+                    "answer2": "Irene Cano",
+                    "answer3": "Arancha Torres"
+                },
+            "correctAnswer": 1
+        },
+        {
+            "questionType": "Matemáticas",
+            "questionText": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
+            "answers":{
+                    "answer1": "María G. Agnesi",
+                    "answer2": "Hipatía de Alejandría",
+                    "answer3": "Sophie Germain"
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Ingeniería",
+            "questionText": "¿Quien fue la primera mujer diplomada como Ingeniera en América del Sur?",
+            "answers": {
+                    "answer1": "Carmen de Andrés",
+                    "answer2": "Pino Pliego",
+                    "answer3": "Elisa Bachofen"
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Ciencia",
+            "questionText": "¿Por qué es famosa María Sibylla Merian?",
+            "answers": {
+                    "answer1": "Por haber dibujado la primera vez insectos.",
+                    "answer2": "Por analizar, entender y describir la metamorfosis.",
+                    "answer3": "Por descubrir una nueva especie de insecto."
+                },
+            "correctAnswer": 1
+        },
+        {
+            "questionType": "Matemáticas",
+            "questionText": "¿Qué libro publicó a los 24 años Wang Zhenyi?",
+            "answers":{
+                    "answer1": "Como entender los eclipses.",
+                    "answer2": "Principios de algebra.",
+                    "answer3": "Principios simples de calculo."
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Ingeniería",
+            "questionText": "¿Qué le debemos a Lillian Gilbreth?",
+            "answers": {
+                    "answer1": "Las disposiciones ergonómicas de los escritorios.",
+                    "answer2": "El lavavajillas.",
+                    "answer3": "El protocolo de desinfección."
+                },
+            "correctAnswer": 0
+        },
+        {
+            "questionType": "Matemáticas",
+            "questionText": "¿Quién dijo de Emmy Noether que era el genio matemático más significativo?",
+            "answers": {
+                    "answer1": "Max Noether.",
+                    "answer2": "Albert Einstein.",
+                    "answer3": "Stephen Hawking."
+                },
+            "correctAnswer": 1
+        },
+        {
+            "questionType": "Ingeniería",
+            "questionText": "¿Quién fue la primera mujer en graduarse en el MIT?",
+            "answers": {
+                    "answer1": "Lise Meitner.",
+                    "answer2": "Mary Agnes Chase.",
+                    "answer3": "Edith Clarke."
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Ciencia",
+            "questionText": "¿Quién descubrió la cura para la Lepra?",
+            "answers": {
+                    "answer1": "Maria Encinar.",
+                    "answer2": "Alice Ball.",
+                    "answer3": "Mary Anning."
+                },
+            "correctAnswer": 1
+        },
+        {
+            "questionType": "Ciencia",
+            "questionText": "¿Qué descubrió Cecilia Payne-Gaposchkin?",
+            "answers":{
+                    "answer1": "El movimiento gravitacional.",
+                    "answer2": "El origen de las estrellas.",
+                    "answer3": "Que el sol está compuesto de Hidrógeno y Helio."
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Tecnología",
+            "questionText": "¿Qué lenguaje de programación creó Grace Hooper?",
+            "answers": {
+                    "answer1": "Cobol",
+                    "answer2": "Fortran",
+                    "answer3": "C"
+                },
+            "correctAnswer": 0
+        },
+        {
+            "questionType": "Ciencia",
+            "questionText": "¿Quién recibó en 1986 el premio Nobel en Fisiología por descubrir el factor de crecimiento neuronal?",
+            "answers": {
+                    "answer1": "Rita Levi Montalcini.",
+                    "answer2": "Aurora Barrero.",
+                    "answer3": "Rosalind Franklin."
+                },
+            "correctAnswer": 0
+        },
+        {
+            "questionType": "Matemáticas",
+            "questionText": "¿Qué famoso trabajo hizo en la NASA Katherine Johnson?",
+            "answers": {
+                    "answer1": "Fué una de las primeras programadoras.",
+                    "answer2": "Dirigir un departamento.",
+                    "answer3": "Los calculos para la misión Apolo."
+                },
+            "correctAnswer": 2
+        },
+        {
+            "questionType": "Matemáticas",
+            "questionText": "¿Quién contribuyo al entendimiento de las figuras curvas y de las superficies?",
+            "answers": {
+                    "answer1": "Maryam Mirzakhani",
+                    "answer2": "Annie Easley",
+                    "answer3": "Jane Goodall"
+                },
+            "correctAnswer": 0
+        },
+        {
+            "questionType": "Ingeniería",
+            "questionText": "¿Quién fue Valentina Tereshkova?",
+            "answers": {
+                    "answer1": "La primera mujer en crear un cohete.",
+                    "answer2": "La primera mujer en el espacio.",
+                    "answer3": "La primera mujer en la NASA."
+                },
+            "correctAnswer": 1
+        }
+    ]
+}
