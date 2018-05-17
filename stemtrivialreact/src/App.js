@@ -33,9 +33,7 @@ class App extends Component {
      isGame : true,
      isResult: false
     });
-    debugger;
     this.questions = this.getRandomQuestions( this.totalQuestions, 16, 8);
-    debugger;
   }
 
   getRandomQuestions(questions, totalNumberOfQuestions, amountQuestionsSelected){
